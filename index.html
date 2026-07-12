@@ -5,90 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>youtube</title>
     <link rel="stylesheet" href="style/style.css"/>
+     
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
   </head>
   <body>
     <header>
+      
+
+      <section id="header_container">
       <div class="header_left">
         <button type="button">☰</button>
         <img class="logo" src="images/logo.png" alt="YouTube Logo">     
-       <div class="header_center">
-        <p>search</p>
-        <p>search button</p>
-        <p>voice search</p>
+       </div>
+        <div class="header_center">
+        <input type="text" placeholder="Search">
+        <button type="button">🔍</button>  
+        <span>🎤</span>
       </div>
       <div class="header_right">
-        <p>create</p>
-        <p>notifaction</p>
-        <p>profile</p>
+        <i class="fa-solid fa-square-plus"></i> Create     <!-- Create -->
+    <i class="fa-regular fa-bell"></i>           <!-- Notification -->
+    <i class="fa-regular fa-circle-user"></i>    <!-- Profile -->
+   
       </div>
     </header>
-      <div class="hoda">
-         <div>
-          <p>hoda</p>
-         </div>
-         <div>
-          <p>hoda</p>
-         </div>
-         <div>
-          <p>hoda</p>
-         </div>
-      </div>
     <main>
-      <!-- sidebar  -->
-      <aside>
-        <nav>
-          <section class="home">
-        
-                <h2> home</h2>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shorts</a></li>
-                    <li><a href="#">Subscriptions</a></li>
-                </ul>
-            
-           
-          </section>
-          <!-- =====================  -->
-            <!-- you -->
-          <!-- =====================  -->
-          <section class="you">
-              <h2> YOU</h2>
-              
-                <ul>
-                    <li><a href="#">You</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Playlists</a></li>
-                    <li><a href="#">Your Videos</a></li>
-                    <li><a href="#">Watch Later</a></li>
-                    <li><a href="#">Liked Videos</a></li>
-                    <li><a href="#">Downloads</a></li>
+      <section class="left_right_container">
+   <!-- sidebar  -->
+  <aside class="left_container">
+    <nav class="linkContainers">
 
-                </ul>
-              </section>
-              <!-- ================== -->
-          <!-- Explore Section -->
-           <!-- ===============  -->
-          <section class="explore">
+        <div class="home">
+           <ul>
+    <li>
+        <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    </li>
+
+    <li>
+        <a href="#"><i class="fa-solid fa-film"></i> Shorts</a>
+    </li>
+
+    <li>
+        <a href="#"><i class="fa-solid fa-play"></i> Subscriptions</a>
+    </li>
+</ul>
+            <hr>
+        </div>
+
+        <div class="you">
+            <h3>You ></h3>
+            <ul>
+               <!-- Home -->
+<li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+
+<!-- Shorts -->
+<li><a href="#"><i class="fa-solid fa-film"></i> Shorts</a></li>
+
+<!-- Subscriptions -->
+<li><a href="#"><i class="fa-solid fa-play"></i> Subscriptions</a></li>
+
+<!-- You -->
+<li><a href="#"><i class="fa-regular fa-user"></i> You</a></li>
+
+<!-- History -->
+<li><a href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+
+<!-- Playlists -->
+<li><a href="#"><i class="fa-solid fa-list"></i> Playlists</a></li>
+
+<!-- Your Videos -->
+<li><a href="#"><i class="fa-solid fa-video"></i> Your Videos</a></li>
+
+<!-- Watch Later -->
+<li><a href="#"><i class="fa-regular fa-clock"></i> Watch Later</a></li>
+
+<!-- Liked Videos -->
+<li><a href="#"><i class="fa-solid fa-thumbs-up"></i> Liked Videos</a></li>
+
+<!-- Downloads -->
+<li><a href="#"><i class="fa-solid fa-download"></i> Downloads</a></li>
+
+<!-- Trending -->
+<li><a href="#"><i class="fa-solid fa-fire"></i> Trending</a></li>
+
+<!-- Music -->
+<li><a href="#"><i class="fa-solid fa-music"></i> Music</a></li>
+
+<!-- Movies -->
+<li><a href="#"><i class="fa-solid fa-film"></i> Movies</a></li>
+
+<!-- Live -->
+<li><a href="#"><i class="fa-solid fa-tower-broadcast"></i> Live</a></li>
+
+<!-- Gaming -->
+<li><a href="#"><i class="fa-solid fa-gamepad"></i> Gaming</a></li>
+
+<!-- News -->
+<li><a href="#"><i class="fa-regular fa-newspaper"></i> News</a></li>
+
+<!-- Sports -->
+<li><a href="#"><i class="fa-solid fa-football"></i> Sports</a></li>
+
+<!-- Courses -->
+<li><a href="#"><i class="fa-solid fa-graduation-cap"></i> Courses</a></li>
+
+<!-- Podcasts -->
+<li><a href="#"><i class="fa-solid fa-podcast"></i> Podcasts</a></li>
+             <hr>
+        </div>
+
+        <div class="explore">
             <h3>Explore</h3>
+            <ul>
+             <li><a href="#"><i class="fa-solid fa-fire"></i> Trending</a></li>
 
-            
-              <ul>
-                <li><a href="#">Trending</a></li>
-                <li><a href="#">Music</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Live</a></li>
-                <li><a href="#">Gaming</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Courses</a></li>
-                <!-- <li><a href="#">Fashion &amp; Beauty</a></li> -->
-                <li><a href="#">Podcasts</a></li>
-              </ul>
+<li><a href="#"><i class="fa-solid fa-music"></i> Music</a></li>
+
+<li><a href="#"><i class="fa-solid fa-film"></i> Movies</a></li>
+
+<li><a href="#"><i class="fa-solid fa-tower-broadcast"></i> Live</a></li>
+
+<li><a href="#"><i class="fa-solid fa-gamepad"></i> Gaming</a></li>
+
+<li><a href="#"><i class="fa-regular fa-newspaper"></i> News</a></li>
+
+<li><a href="#"><i class="fa-solid fa-football"></i> Sports</a></li>
+
+<li><a href="#"><i class="fa-solid fa-graduation-cap"></i> Courses</a></li>
+
+<li><a href="#"><i class="fa-solid fa-podcast"></i> Podcasts</a></li>
+            </ul>
+        </div>
+
         
-          </section>
-          
-        </nav>
-      </aside>
+
+     <!-- more youtube  -->
+
+        <div class="moreYoutube">
+            <h3>More from YouTube</h3>
+            <ul>
+                <li><a href="#">Try Premium for $0</a></li>
+                <li><a href="#">YouTube Music</a></li>
+                <li><a href="#">YouTube Kids</a></li>
+            </ul>
+        </div>
+        <!-- Report history -->
+        <div class="moreYoutube">
+            <h3>Report history</h3>
+            <hr> <br>
+            <p>AboutPressCopyrightContact usCreatorsAdvertiseDevelopers</p> <br>
+            <p>TermsPrivacyPolicy & SafetyHow YouTube worksTest new features</p> <br>
+             © 2026 Google LLC
+        </div>
+    </nav>
+</aside>
 
        <!-- ======================  video cads -->
       <!-- video  section-->
@@ -98,7 +171,7 @@
         <section class="Category_bar"> 
           <h2>Category Bar</h2>
           <nav>
-            <ul>
+            <ul class="categori_items">
                 <li><a href="#">All</a></li>
                 <li><a href="#">Music</a></li>
                 <li><a href="#">Gaming</a></li>
@@ -111,23 +184,105 @@
           </nav>
           </section>
             <section class="video_cards">
-                <article class="video_card">
-                    <a href="">
-                        <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
-                        <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
-                    </a>
-                    <p>video title</p>
-                    <p>channel name</p>
-                    <p>views</p>
-                <p>upload date</p>
-                </article>
-
+              
+              <article class="video_card">
+                  <a href="">
+                      <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
+                      <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
+                  </a>
+                  <p>video title</p>
+                  <p>channel name</p>
+                  <p>views</p>
+              <p>upload date</p>
+              </article>
+              <article class="video_card">
+                  <a href="">
+                      <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
+                      <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
+                  </a>
+                  <p>video title</p>
+                  <p>channel name</p>
+                  <p>views</p>
+              <p>upload date</p>
+              </article>
+              <article class="video_card">
+                  <a href="">
+                      <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
+                      <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
+                  </a>
+                  <p>video title</p>
+                  <p>channel name</p>
+                  <p>views</p>
+              <p>upload date</p>
+              </article>
+              <article class="video_card">
+                  <a href="">
+                      <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
+                      <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
+                  </a>
+                  <p>video title</p>
+                  <p>channel name</p>
+                  <p>views</p>
+              <p>upload date</p>
+              </article>
+              <article class="video_card">
+                  <a href="">
+                      <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
+                      <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
+                  </a>
+                  <p>video title</p>
+                  <p>channel name</p>
+                  <p>views</p>
+              <p>upload date</p>
+              </article>
+              <article class="video_card">
+                  <a href="">
+                      <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
+                      <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
+                  </a>
+                  <p>video title</p>
+                  <p>channel name</p>
+                  <p>views</p>
+              <p>upload date</p>
+              </article>
+              <article class="video_card">
+                  <a href="">
+                      <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
+                      <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
+                  </a>
+                  <p>video title</p>
+                  <p>channel name</p>
+                  <p>views</p>
+              <p>upload date</p>
+              </article>
+              <article class="video_card">
+                  <a href="">
+                      <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
+                      <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
+                  </a>
+                  <p>video title</p>
+                  <p>channel name</p>
+                  <p>views</p>
+              <p>upload date</p>
+              </article>
+              <article class="video_card">
+                  <a href="">
+                      <!-- <img src="video-thumbnail.jpg" alt="Video Thumbnail"> -->
+                      <img  style="width:200px; border:1px solid burlywood" src="images/img.png" alt="Video Thumbnail">
+                  </a>
+                  <p>video title</p>
+                  <p>channel name</p>
+                  <p>views</p>
+              <p>upload date</p>
+              </article>
             </section>
 
           </section>
-          <footer>
+      </section>
+   
+          <!-- <footer>
             <p>&copy; 2026 YouTube Clone. All rights reserved.</p>
-          </footer>
+          </footer> -->
         
     </main>
   </body>
